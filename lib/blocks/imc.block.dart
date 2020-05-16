@@ -7,7 +7,7 @@ class ImcBloc {
 
     calculate() {
       double weight = double.parse(weightCtrl.text);
-      double height = double.parse(weightCtrl.text) / 100;
+      double height = double.parse(heightCtrl.text) / 100;
       double imc = weight / (height * height);
 
       if(imc < 18.6) {
